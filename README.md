@@ -7,4 +7,4 @@ The IS_SUCCESSFUL variable is the target for the model. The features for the mod
 ### Compiling, Training, and Evaluating the Model
 I added three hidden layers with eight, four, and two neurons respectively for the first attempt. For the second attempt, I added four hidden layers with 130, 40, 20, and 10 neurons. For my third attempt, I added three hidden layers with 80, 30, and 10 neurons. I was not able to reach the 75% target performance.
 ## Summary
-The best optimized model had a 61% accuracy and a loss of 67%. Perhaps using the percentage of the INC_AMT relative to the ASK_AMT and using that ratio in the model may have been an important feature which could help boost the accuracy of this model.
+The best optimized model had a 61% accuracy and a loss of 67%. Perhaps using the percentage of the INC_AMT relative to the ASK_AMT and using that ratio in the model may have been an important feature which could help boost the accuracy of this model. Perhaps it might be useful to try a random forest model instead, given that it will combine multiple weaker, smaller models and combine their output for a final classification. This could be a better fit for out data.
